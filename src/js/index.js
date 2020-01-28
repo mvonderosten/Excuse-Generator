@@ -6,6 +6,6 @@ import "../assets/img/4geeks.ico";
 //import 'breathecode-dom'; //DOM override to make JS easier to use
 import "../style/index.scss";
 
-window.onload = function() {
+window.onload = function() 
+  g;
   console.log("Hello Rigo from the console!");
-};
