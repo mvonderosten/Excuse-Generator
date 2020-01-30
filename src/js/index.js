@@ -7,19 +7,19 @@ import "../style/index.scss";
 window.onload = () => {
   let randomNumber = Math.random() * 10;
   document.querySelector("#btn").addEventListener("click", () => {
-    document.querySelector("#excuse").innerHTML = generateExcuse;
+    document.querySelector("#excuse").innerHTML = generateExcuse();
   });
   console.log("Help Me!");
 };
 
 let generateExcuse = () => {
-  let who = ["the dog", "my granma", "his turtle", "my bird"];
-  let what = ["ate", "pissed", "crushed", "broked"];
+  let who = ["The Dog ", "My Grandma ", "Paul's Turtle ", "My Bird "];
+  let what = ["ate me ", "pissed on me ", "crushed me ", "broke me "];
   let when = [
     "before the class",
-    "right in time",
+    "before I pushed to git",
     "when I finished",
-    "during my lunch",
+    "during my lunch break",
     "while I was praying"
   ];
 
