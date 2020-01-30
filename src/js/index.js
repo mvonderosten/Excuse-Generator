@@ -14,7 +14,7 @@ window.onload = () => {
 
 let generateExcuse = () => {
   let who = ["The Dog ", "My Grandma ", "Paul's Turtle ", "My Bird "];
-  let what = ["ate me ", "pissed on me ", "crushed me ", "broke me "];
+  let what = ["ate me ", "pissed on me ", "crushed me ", "mentally broke me "];
   let when = [
     "before the class",
     "before I pushed to git",
